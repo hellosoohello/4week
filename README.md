@@ -1,2 +1,3 @@
-# 4week
-4week hw
+# 4week assignment
+
+## Using loops and repetition
