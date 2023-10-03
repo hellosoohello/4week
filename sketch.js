@@ -17,7 +17,7 @@ function draw() {
  var x = r * cos(a) + width / 2;
  var y = r * sin(a) + height / 2;
 
- let textss = 'Cherry blossom \n eun soo cho';
+ let textss = 'Cherry blossom \n eun soo cho'; // text
  fill(50);
  text(textss, 10, 350, 70, 80);
 
