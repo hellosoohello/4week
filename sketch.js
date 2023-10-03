@@ -5,7 +5,7 @@ function setup() {
   createCanvas(400, 400);
  // angleMode(DEGREES);
   colorMode(RGB);
-  background(255, 255, 255);
+  background(195, 177, 225);
   
 }
 
@@ -17,17 +17,27 @@ function draw() {
  var x = r * cos(a) + width / 2;
  var y = r * sin(a) + height / 2;
 
+ let textss = 'Cherry blossom \n eun soo cho';
+ fill(50);
+ text(textss, 10, 350, 70, 80);
+
  for(let i = 0; i < 255; i++)
  {
     let r = random(100);
     noStroke();
-    fill( r * i , r, 100);
+    fill( i , r, 100);
+    rect (x + 100, y + 100 , 15, 15);
  }
  
- //line(0 ,y, width, y);
+ for(let i = 0; i < 155; i++)
+ {
+    let r = random(100);
+    noStroke();
+    fill( i , r, 180);
+    rect (x - 100, y - 100 , 15, 15);
+ }
+ 
 
-  rect (x, y , 15, 15);
- //ellipse(x, y, 4, 4);
  n++;
 
   
